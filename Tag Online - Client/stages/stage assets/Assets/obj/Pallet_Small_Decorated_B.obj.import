@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Pallet_Small_Decorated_B.obj-bf59f87540c215ef6a5cc98a5b7fdec1.mesh"
+
+[deps]
+
+files=[ "res://.import/Pallet_Small_Decorated_B.obj-bf59f87540c215ef6a5cc98a5b7fdec1.mesh" ]
+
+source_file="res://stages/stage assets/Assets/obj/Pallet_Small_Decorated_B.obj"
+dest_files=[ "res://.import/Pallet_Small_Decorated_B.obj-bf59f87540c215ef6a5cc98a5b7fdec1.mesh", "res://.import/Pallet_Small_Decorated_B.obj-bf59f87540c215ef6a5cc98a5b7fdec1.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

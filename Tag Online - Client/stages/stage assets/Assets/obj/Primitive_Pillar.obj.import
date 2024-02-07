@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Primitive_Pillar.obj-474e596a58c1401cce30901ba8259d1b.mesh"
+
+[deps]
+
+files=[ "res://.import/Primitive_Pillar.obj-474e596a58c1401cce30901ba8259d1b.mesh" ]
+
+source_file="res://stages/stage assets/Assets/obj/Primitive_Pillar.obj"
+dest_files=[ "res://.import/Primitive_Pillar.obj-474e596a58c1401cce30901ba8259d1b.mesh", "res://.import/Primitive_Pillar.obj-474e596a58c1401cce30901ba8259d1b.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

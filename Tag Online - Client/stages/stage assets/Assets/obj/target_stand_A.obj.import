@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/target_stand_A.obj-dd2316eb74b8a828116a2cc82293a34e.mesh"
+
+[deps]
+
+files=[ "res://.import/target_stand_A.obj-dd2316eb74b8a828116a2cc82293a34e.mesh" ]
+
+source_file="res://stages/stage assets/Assets/obj/target_stand_A.obj"
+dest_files=[ "res://.import/target_stand_A.obj-dd2316eb74b8a828116a2cc82293a34e.mesh", "res://.import/target_stand_A.obj-dd2316eb74b8a828116a2cc82293a34e.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

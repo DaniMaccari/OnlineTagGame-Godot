@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Primitive_Wall.obj-2cfe6b48695c3722cc24f8bad460b55f.mesh"
+
+[deps]
+
+files=[ "res://.import/Primitive_Wall.obj-2cfe6b48695c3722cc24f8bad460b55f.mesh" ]
+
+source_file="res://stages/stage assets/Assets/obj/Primitive_Wall.obj"
+dest_files=[ "res://.import/Primitive_Wall.obj-2cfe6b48695c3722cc24f8bad460b55f.mesh", "res://.import/Primitive_Wall.obj-2cfe6b48695c3722cc24f8bad460b55f.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

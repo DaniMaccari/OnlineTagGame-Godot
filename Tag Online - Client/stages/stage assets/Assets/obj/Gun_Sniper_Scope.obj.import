@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Gun_Sniper_Scope.obj-587aa25c306d51db2c7e310e622b154a.mesh"
+
+[deps]
+
+files=[ "res://.import/Gun_Sniper_Scope.obj-587aa25c306d51db2c7e310e622b154a.mesh" ]
+
+source_file="res://stages/stage assets/Assets/obj/Gun_Sniper_Scope.obj"
+dest_files=[ "res://.import/Gun_Sniper_Scope.obj-587aa25c306d51db2c7e310e622b154a.mesh", "res://.import/Gun_Sniper_Scope.obj-587aa25c306d51db2c7e310e622b154a.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

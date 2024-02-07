@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Weaponrack.obj-0a8fcd2f99e4e0a2da528c208ca2b9ef.mesh"
+
+[deps]
+
+files=[ "res://.import/Weaponrack.obj-0a8fcd2f99e4e0a2da528c208ca2b9ef.mesh" ]
+
+source_file="res://stages/stage assets/Assets/obj/Weaponrack.obj"
+dest_files=[ "res://.import/Weaponrack.obj-0a8fcd2f99e4e0a2da528c208ca2b9ef.mesh", "res://.import/Weaponrack.obj-0a8fcd2f99e4e0a2da528c208ca2b9ef.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286
