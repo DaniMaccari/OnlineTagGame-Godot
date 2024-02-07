@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Pallet_Large.obj-eaae4896dcbd7d8446758b0ba048cf1b.mesh"
+
+[deps]
+
+files=[ "res://.import/Pallet_Large.obj-eaae4896dcbd7d8446758b0ba048cf1b.mesh" ]
+
+source_file="res://stages/stage assets/Assets/obj/Pallet_Large.obj"
+dest_files=[ "res://.import/Pallet_Large.obj-eaae4896dcbd7d8446758b0ba048cf1b.mesh", "res://.import/Pallet_Large.obj-eaae4896dcbd7d8446758b0ba048cf1b.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

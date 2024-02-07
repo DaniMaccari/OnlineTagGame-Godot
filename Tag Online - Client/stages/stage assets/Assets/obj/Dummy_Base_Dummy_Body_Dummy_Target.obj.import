@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Dummy_Base_Dummy_Body_Dummy_Target.obj-c90a8769e21c636c98d7b9ff4494c83d.mesh"
+
+[deps]
+
+files=[ "res://.import/Dummy_Base_Dummy_Body_Dummy_Target.obj-c90a8769e21c636c98d7b9ff4494c83d.mesh" ]
+
+source_file="res://stages/stage assets/Assets/obj/Dummy_Base_Dummy_Body_Dummy_Target.obj"
+dest_files=[ "res://.import/Dummy_Base_Dummy_Body_Dummy_Target.obj-c90a8769e21c636c98d7b9ff4494c83d.mesh", "res://.import/Dummy_Base_Dummy_Body_Dummy_Target.obj-c90a8769e21c636c98d7b9ff4494c83d.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

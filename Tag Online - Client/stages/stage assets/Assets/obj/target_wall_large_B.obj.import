@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/target_wall_large_B.obj-6141928b2b93a6efdff7d9337e659657.mesh"
+
+[deps]
+
+files=[ "res://.import/target_wall_large_B.obj-6141928b2b93a6efdff7d9337e659657.mesh" ]
+
+source_file="res://stages/stage assets/Assets/obj/target_wall_large_B.obj"
+dest_files=[ "res://.import/target_wall_large_B.obj-6141928b2b93a6efdff7d9337e659657.mesh", "res://.import/target_wall_large_B.obj-6141928b2b93a6efdff7d9337e659657.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

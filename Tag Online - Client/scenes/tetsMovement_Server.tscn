@@ -1,0 +1,139 @@
+[gd_scene load_steps=17 format=2]
+
+[sub_resource type="BoxShape" id=19]
+extents = Vector3( 10.0158, 1, 10.0107 )
+
+[sub_resource type="BoxShape" id=20]
+extents = Vector3( 1.99189, 1, 1.99558 )
+
+[sub_resource type="BoxShape" id=21]
+extents = Vector3( 3.99626, 4.50555, 1.90422 )
+
+[sub_resource type="BoxShape" id=22]
+extents = Vector3( 1.94928, 4.1892, 1.99763 )
+
+[sub_resource type="BoxShape" id=23]
+extents = Vector3( 1, 0.244346, 1 )
+
+[sub_resource type="BoxShape" id=24]
+extents = Vector3( 1.93787, 0.247843, 1 )
+
+[sub_resource type="BoxShape" id=25]
+extents = Vector3( 1.62444, 1, 1.28212 )
+
+[sub_resource type="BoxShape" id=26]
+extents = Vector3( 1.17448, 3.91861, 1.16626 )
+
+[sub_resource type="BoxShape" id=27]
+extents = Vector3( 1.19737, 0.924552, 1.17742 )
+
+[sub_resource type="BoxShape" id=28]
+extents = Vector3( 0.317998, 1.22142, 2.41272 )
+
+[sub_resource type="BoxShape" id=29]
+extents = Vector3( 0.999786, 0.662526, 0.758447 )
+
+[sub_resource type="BoxShape" id=30]
+extents = Vector3( 1.07989, 1.48537, 0.54809 )
+
+[sub_resource type="BoxShape" id=31]
+extents = Vector3( 0.296512, 0.742112, 0.607226 )
+
+[sub_resource type="BoxShape" id=32]
+extents = Vector3( 0.512674, 2.81427, 0.487661 )
+
+[sub_resource type="BoxShape" id=33]
+extents = Vector3( 0.184142, 0.77443, 1.49338 )
+
+[sub_resource type="BoxShape" id=34]
+extents = Vector3( 0.733716, 0.95699, 1.49169 )
+
+[node name="Spatial" type="StaticBody"]
+
+[node name="GroundShape" type="CollisionShape" parent="."]
+transform = Transform( 1.2, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.5, 0 )
+shape = SubResource( 19 )
+
+[node name="TowerLowerCollision" type="CollisionShape" parent="."]
+transform = Transform( 1.59187, 0, -0.161051, 0, 1, 0, 0.161051, 0, 1.59187, 7.07986, 1.52478, -5.18217 )
+shape = SubResource( 20 )
+
+[node name="TowerSmallCollision" type="CollisionShape" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 0, 5.44 )
+shape = SubResource( 21 )
+
+[node name="TowerBigCollision" type="CollisionShape" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.65682, 4.25162, 7.81301 )
+shape = SubResource( 22 )
+
+[node name="palletCollision" type="CollisionShape" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.65123, 3.0969, 6.81309 )
+shape = SubResource( 23 )
+
+[node name="palletCollision2" type="CollisionShape" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.65449, 6.11354, 8.63351 )
+shape = SubResource( 23 )
+
+[node name="palletCollision3" type="CollisionShape" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.56154, 6.43264, -1.22715 )
+shape = SubResource( 23 )
+
+[node name="palletCollision4" type="CollisionShape" parent="."]
+transform = Transform( -4.29363e-08, 0.982268, 0.187484, -1, -4.37114e-08, 0, 8.19519e-09, -0.187484, 0.982268, -9.90218, 1.4854, 2.5082 )
+shape = SubResource( 23 )
+
+[node name="palletLongCollision" type="CollisionShape" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.63808, 8.11849, 4.82389 )
+shape = SubResource( 24 )
+
+[node name="palletLongCollision2" type="CollisionShape" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.77049, 4.14921, 2.37471 )
+shape = SubResource( 24 )
+
+[node name="StairsCollision" type="CollisionShape" parent="."]
+transform = Transform( 0.750744, -0.656232, -0.0757793, 0.658125, 0.752909, 0, 0.0570549, -0.0498722, 0.997125, 3.57721, 0.693606, -7.46813 )
+shape = SubResource( 25 )
+
+[node name="barrelsTower" type="CollisionShape" parent="."]
+transform = Transform( 0.406737, 0, -0.913545, 0, 1, 0, 0.913545, 0, 0.406737, -3.30443, 4.3983, -7.19189 )
+shape = SubResource( 26 )
+
+[node name="barerlsLower" type="CollisionShape" parent="."]
+transform = Transform( 0.406737, 0, -0.913545, 0, 1, 0, 0.913545, 0, 0.406737, -5.62299, 1.37645, -6.18077 )
+shape = SubResource( 27 )
+
+[node name="barerlsLower2" type="CollisionShape" parent="."]
+transform = Transform( 0.987114, 0, -0.160019, 0, 1, 0, 0.160019, 0, 0.987114, 3.00721, 5.3889, 5.92382 )
+shape = SubResource( 27 )
+
+[node name="palletBigCollision" type="CollisionShape" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -10.1071, 1.68704, -0.95546 )
+shape = SubResource( 28 )
+
+[node name="tableCollision" type="CollisionShape" parent="."]
+transform = Transform( 0.862081, 0, 0.506771, 0, 1, 0, -0.506771, 0, 0.862081, 0.391, 0.62, 2.195 )
+shape = SubResource( 29 )
+
+[node name="lockersCollision" type="CollisionShape" parent="."]
+transform = Transform( 0.999373, 0, 0.0354053, 0, 1, 0, -0.0354053, 0, 0.999373, -3.87692, 2.02279, 5.2963 )
+shape = SubResource( 30 )
+
+[node name="decorationCollison1" type="CollisionShape" parent="."]
+transform = Transform( 0.993164, 0, -0.116723, 0, 1, 0, 0.116723, 0, 0.993164, -5.64224, 1.24591, -1.13819 )
+shape = SubResource( 31 )
+
+[node name="decorationCollison2" type="CollisionShape" parent="."]
+transform = Transform( 0.973921, 0, 0.226889, 0, 1, 0, -0.226889, 0, 0.973921, 4.4172, 1.69127, -1.56023 )
+shape = SubResource( 31 )
+
+[node name="yellowPilarCollision" type="CollisionShape" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.56031, 3.27701, -1.23411 )
+shape = SubResource( 32 )
+
+[node name="decorationBIg2" type="CollisionShape" parent="."]
+transform = Transform( 0.978885, 0, -0.204411, 0, 1, 0, 0.204411, 0, 0.978885, 9.65778, 4.28276, -4.7346 )
+shape = SubResource( 33 )
+
+[node name="decorationBigCollision" type="CollisionShape" parent="."]
+transform = Transform( 0.978885, 0, -0.204411, 0, 1, 0, 0.204411, 0, 0.978885, 9.11238, 2.61545, -4.87879 )
+shape = SubResource( 34 )

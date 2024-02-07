@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Primitive_Doorway.obj-84d0fc5757d48b0dad80fd0b405c3b7c.mesh"
+
+[deps]
+
+files=[ "res://.import/Primitive_Doorway.obj-84d0fc5757d48b0dad80fd0b405c3b7c.mesh" ]
+
+source_file="res://stages/stage assets/Assets/obj/Primitive_Doorway.obj"
+dest_files=[ "res://.import/Primitive_Doorway.obj-84d0fc5757d48b0dad80fd0b405c3b7c.mesh", "res://.import/Primitive_Doorway.obj-84d0fc5757d48b0dad80fd0b405c3b7c.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

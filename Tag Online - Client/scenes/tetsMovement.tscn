@@ -1,0 +1,834 @@
+[gd_scene load_steps=52 format=2]
+
+[ext_resource path="res://stages/stage assets/Assets/obj/prototypebits_texture.png" type="Texture" id=2]
+[ext_resource path="res://stages/stage assets/Assets/textures/prototypebits_texture.png" type="Texture" id=3]
+[ext_resource path="res://stages/stage assets/Character/prototypebits_texture.png" type="Texture" id=4]
+[ext_resource path="res://stages/stage assets/Assets/obj/Locker_Decorated.obj" type="ArrayMesh" id=5]
+[ext_resource path="res://stages/stage assets/Assets/obj/Weaponrack_Decorated.obj" type="ArrayMesh" id=6]
+[ext_resource path="res://stages/stage assets/Assets/obj/table_medium.obj" type="ArrayMesh" id=7]
+[ext_resource path="res://stages/stage assets/Assets/obj/target_wall_small.obj" type="ArrayMesh" id=8]
+[ext_resource path="res://stages/stage assets/Assets/obj/Primitive_Pillar.obj" type="ArrayMesh" id=9]
+[ext_resource path="res://stages/stage assets/Assets/obj/target_stand_B.obj" type="ArrayMesh" id=10]
+[ext_resource path="res://stages/stage assets/Assets/obj/Pallet_Small_Decorated_A.obj" type="ArrayMesh" id=12]
+[ext_resource path="res://stages/stage assets/Assets/obj/Primitive_Floor.obj" type="ArrayMesh" id=13]
+[ext_resource path="res://stages/stage assets/Assets/obj/Cube_Prototype_Large_B.obj" type="ArrayMesh" id=14]
+[ext_resource path="res://stages/stage assets/Assets/obj/Primitive_Stairs_Half.obj" type="ArrayMesh" id=15]
+[ext_resource path="res://stages/stage assets/Assets/obj/Workbench_Decorated.obj" type="ArrayMesh" id=16]
+[ext_resource path="res://stages/stage assets/Assets/obj/Pallet_Small.obj" type="ArrayMesh" id=17]
+[ext_resource path="res://stages/stage assets/Assets/obj/Floor_Dirt.obj" type="ArrayMesh" id=18]
+[ext_resource path="res://stages/stage assets/Assets/obj/Floor.obj" type="ArrayMesh" id=19]
+[ext_resource path="res://stages/stage assets/Assets/obj/Wall.obj" type="ArrayMesh" id=20]
+
+[sub_resource type="SpatialMaterial" id=1]
+albedo_texture = ExtResource( 3 )
+
+[sub_resource type="SpatialMaterial" id=2]
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="SpatialMaterial" id=4]
+albedo_texture = ExtResource( 4 )
+
+[sub_resource type="SpatialMaterial" id=5]
+albedo_texture = ExtResource( 4 )
+
+[sub_resource type="SpatialMaterial" id=6]
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="SpatialMaterial" id=7]
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="SpatialMaterial" id=8]
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="SpatialMaterial" id=10]
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="SpatialMaterial" id=11]
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="SpatialMaterial" id=12]
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="SpatialMaterial" id=13]
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="SpatialMaterial" id=14]
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="SpatialMaterial" id=15]
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="SpatialMaterial" id=16]
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="SpatialMaterial" id=3]
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ProceduralSky" id=17]
+sky_top_color = Color( 0.309804, 0.572549, 0.827451, 1 )
+sky_horizon_color = Color( 0.317647, 0.87451, 0.6, 1 )
+sky_curve = 0.151361
+sky_energy = 1.3
+ground_bottom_color = Color( 0.152941, 0.219608, 0.427451, 1 )
+ground_horizon_color = Color( 0.529412, 0.972549, 0.709804, 1 )
+ground_curve = 0.077275
+
+[sub_resource type="Environment" id=18]
+background_mode = 2
+background_sky = SubResource( 17 )
+background_energy = 1.2
+ambient_light_sky_contribution = 0.9
+glow_enabled = true
+
+[sub_resource type="BoxShape" id=19]
+extents = Vector3( 10.0158, 1, 10.0107 )
+
+[sub_resource type="BoxShape" id=20]
+extents = Vector3( 1.99189, 1, 1.99558 )
+
+[sub_resource type="BoxShape" id=21]
+extents = Vector3( 3.99626, 4.50555, 1.90422 )
+
+[sub_resource type="BoxShape" id=22]
+extents = Vector3( 1.94928, 4.1892, 1.99763 )
+
+[sub_resource type="BoxShape" id=23]
+extents = Vector3( 1, 0.244346, 1 )
+
+[sub_resource type="BoxShape" id=24]
+extents = Vector3( 1.93787, 0.247843, 1 )
+
+[sub_resource type="BoxShape" id=25]
+extents = Vector3( 1.62444, 1, 1.28212 )
+
+[sub_resource type="BoxShape" id=26]
+extents = Vector3( 1.17448, 3.91861, 1.16626 )
+
+[sub_resource type="BoxShape" id=27]
+extents = Vector3( 1.19737, 0.924552, 1.17742 )
+
+[sub_resource type="BoxShape" id=28]
+extents = Vector3( 0.317998, 1.22142, 2.41272 )
+
+[sub_resource type="BoxShape" id=29]
+extents = Vector3( 0.999786, 0.662526, 0.758447 )
+
+[sub_resource type="BoxShape" id=30]
+extents = Vector3( 1.07989, 1.48537, 0.54809 )
+
+[sub_resource type="BoxShape" id=31]
+extents = Vector3( 0.296512, 0.742112, 0.607226 )
+
+[sub_resource type="BoxShape" id=32]
+extents = Vector3( 0.512674, 2.81427, 0.487661 )
+
+[sub_resource type="BoxShape" id=33]
+extents = Vector3( 0.184142, 0.77443, 1.49338 )
+
+[sub_resource type="BoxShape" id=34]
+extents = Vector3( 0.733716, 0.95699, 1.49169 )
+
+[node name="Spatial" type="StaticBody"]
+collision_layer = 2
+
+[node name="DirectionalLight" type="DirectionalLight" parent="."]
+transform = Transform( 0.739599, -0.617213, 0.268406, -0.0402671, 0.357499, 0.933045, -0.671842, -0.700887, 0.239552, 0, 10.9051, 0 )
+light_energy = 0.5
+shadow_enabled = true
+
+[node name="assets" type="Spatial" parent="."]
+
+[node name="bigTower" type="MeshInstance" parent="assets"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.65416, 0.464723, 7.80522 )
+material_override = SubResource( 1 )
+use_in_baked_light = true
+mesh = ExtResource( 14 )
+skeleton = NodePath("")
+material/0 = null
+
+[node name="Pallet_Small2" type="MeshInstance" parent="assets/bigTower"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 5.4, 0.836 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 17 )
+skeleton = NodePath("../Pallet_Small")
+material/0 = null
+
+[node name="Pallet_Small" type="MeshInstance" parent="assets/bigTower"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 2.4, -1 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 17 )
+material/0 = null
+
+[node name="palet1" type="MeshInstance" parent="assets/bigTower"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.978736, 7.4, -3 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 17 )
+skeleton = NodePath("../palet2")
+material/0 = null
+
+[node name="palet2" type="MeshInstance" parent="assets/bigTower"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.978264, 7.4, -3 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 17 )
+material/0 = null
+
+[node name="cubeArriba" type="MeshInstance" parent="assets/bigTower"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 4, 0 )
+material_override = SubResource( 1 )
+use_in_baked_light = true
+mesh = ExtResource( 14 )
+skeleton = NodePath("")
+material/0 = null
+
+[node name="smallTower2" type="MeshInstance" parent="assets"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 0.5, 5.35632 )
+material_override = SubResource( 1 )
+use_in_baked_light = true
+mesh = ExtResource( 14 )
+skeleton = NodePath("")
+material/0 = null
+
+[node name="cubeDerecha" type="MeshInstance" parent="assets/smallTower2"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, 0 )
+material_override = SubResource( 1 )
+use_in_baked_light = true
+mesh = ExtResource( 14 )
+skeleton = NodePath("")
+material/0 = null
+
+[node name="palet1" type="MeshInstance" parent="assets/smallTower2"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.2, 3.4, -3 )
+layers = 4
+material_override = SubResource( 2 )
+mesh = ExtResource( 17 )
+skeleton = NodePath("../palet2")
+material/0 = null
+
+[node name="palet2" type="MeshInstance" parent="assets/smallTower2"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.757, 3.4, -3 )
+layers = 4
+material_override = SubResource( 2 )
+mesh = ExtResource( 17 )
+material/0 = null
+
+[node name="palet3" type="MeshInstance" parent="assets/smallTower2"]
+transform = Transform( 0.985917, 0, -0.167233, 0, 1, 0, 0.167233, 0, 0.985917, -3.9337, 5.31322, 0.554127 )
+layers = 4
+material_override = SubResource( 2 )
+mesh = ExtResource( 17 )
+skeleton = NodePath("../palet2")
+material/0 = null
+
+[node name="floor" type="Spatial" parent="assets"]
+
+[node name="Floor_Dirt11" type="MeshInstance" parent="assets/floor"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10.0337, 0, 4 )
+material_override = SubResource( 4 )
+use_in_baked_light = true
+mesh = ExtResource( 18 )
+skeleton = NodePath(".")
+material/0 = null
+
+[node name="Floor7" type="MeshInstance" parent="assets/floor"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -10, 0, 8 )
+material_override = SubResource( 5 )
+use_in_baked_light = true
+mesh = ExtResource( 19 )
+skeleton = NodePath("../Floor")
+material/0 = null
+
+[node name="Floor8" type="MeshInstance" parent="assets/floor"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, 8 )
+material_override = SubResource( 5 )
+use_in_baked_light = true
+mesh = ExtResource( 19 )
+skeleton = NodePath("../Floor")
+material/0 = null
+
+[node name="Floor9" type="MeshInstance" parent="assets/floor"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 8 )
+material_override = SubResource( 5 )
+use_in_baked_light = true
+mesh = ExtResource( 19 )
+skeleton = NodePath("../Floor")
+material/0 = null
+
+[node name="Floor10" type="MeshInstance" parent="assets/floor"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, 8 )
+material_override = SubResource( 5 )
+use_in_baked_light = true
+mesh = ExtResource( 19 )
+skeleton = NodePath("../Floor")
+material/0 = null
+
+[node name="Floor3" type="MeshInstance" parent="assets/floor"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, 0 )
+material_override = SubResource( 5 )
+use_in_baked_light = true
+mesh = ExtResource( 19 )
+skeleton = NodePath("../Floor")
+material/0 = null
+
+[node name="Floor" type="MeshInstance" parent="assets/floor"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, -8 )
+material_override = SubResource( 5 )
+use_in_baked_light = true
+mesh = ExtResource( 19 )
+skeleton = NodePath("../../..")
+material/0 = null
+
+[node name="Floor_Dirt16" type="MeshInstance" parent="assets/floor"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -10, 0, 0 )
+material_override = SubResource( 4 )
+use_in_baked_light = true
+mesh = ExtResource( 18 )
+skeleton = NodePath("")
+material/0 = null
+
+[node name="Floor_Dirt17" type="MeshInstance" parent="assets/floor"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -10, 0, 4 )
+material_override = SubResource( 4 )
+use_in_baked_light = true
+mesh = ExtResource( 18 )
+skeleton = NodePath("../Floor_Dirt")
+material/0 = null
+
+[node name="Floor_Dirt" type="MeshInstance" parent="assets/floor"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -10, 0, -8 )
+material_override = SubResource( 4 )
+use_in_baked_light = true
+mesh = ExtResource( 18 )
+skeleton = NodePath("../../..")
+material/0 = null
+
+[node name="Floor_Dirt2" type="MeshInstance" parent="assets/floor"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, -4 )
+material_override = SubResource( 4 )
+use_in_baked_light = true
+mesh = ExtResource( 18 )
+skeleton = NodePath("")
+material/0 = null
+
+[node name="Floor_Dirt3" type="MeshInstance" parent="assets/floor"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -10, 0, -4 )
+material_override = SubResource( 4 )
+use_in_baked_light = true
+mesh = ExtResource( 18 )
+skeleton = NodePath("")
+material/0 = null
+
+[node name="Floor_Dirt4" type="MeshInstance" parent="assets/floor"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, 0 )
+material_override = SubResource( 4 )
+use_in_baked_light = true
+mesh = ExtResource( 18 )
+skeleton = NodePath("../Floor_Dirt2")
+material/0 = null
+
+[node name="Floor_Dirt14" type="MeshInstance" parent="assets/floor"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, -8 )
+material_override = SubResource( 4 )
+use_in_baked_light = true
+mesh = ExtResource( 18 )
+skeleton = NodePath("../Floor_Dirt2")
+material/0 = null
+
+[node name="Floor_Dirt15" type="MeshInstance" parent="assets/floor"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, -4 )
+material_override = SubResource( 4 )
+use_in_baked_light = true
+mesh = ExtResource( 18 )
+skeleton = NodePath("../Floor_Dirt2")
+material/0 = null
+
+[node name="Floor_Dirt18" type="MeshInstance" parent="assets/floor"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, 4 )
+material_override = SubResource( 4 )
+use_in_baked_light = true
+mesh = ExtResource( 18 )
+skeleton = NodePath("../Floor_Dirt2")
+material/0 = null
+
+[node name="Floor_Dirt5" type="MeshInstance" parent="assets/floor"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, 4 )
+material_override = SubResource( 4 )
+use_in_baked_light = true
+mesh = ExtResource( 18 )
+skeleton = NodePath("../Floor_Dirt2")
+material/0 = null
+
+[node name="Floor_Dirt19" type="MeshInstance" parent="assets/floor"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10.0337, 0, 8 )
+material_override = SubResource( 4 )
+use_in_baked_light = true
+mesh = ExtResource( 18 )
+skeleton = NodePath(".")
+material/0 = null
+
+[node name="Floor11" type="MeshInstance" parent="assets/floor"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, 8 )
+material_override = SubResource( 5 )
+use_in_baked_light = true
+mesh = ExtResource( 19 )
+skeleton = NodePath(".")
+material/0 = null
+
+[node name="Floor4" type="MeshInstance" parent="assets/floor"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, 4 )
+material_override = SubResource( 5 )
+use_in_baked_light = true
+mesh = ExtResource( 19 )
+skeleton = NodePath(".")
+material/0 = null
+
+[node name="Floor5" type="MeshInstance" parent="assets/floor"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -8 )
+material_override = SubResource( 5 )
+use_in_baked_light = true
+mesh = ExtResource( 19 )
+skeleton = NodePath("")
+material/0 = null
+
+[node name="Floor_Dirt6" type="MeshInstance" parent="assets/floor"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.01686, 0, -4 )
+material_override = SubResource( 4 )
+use_in_baked_light = true
+mesh = ExtResource( 18 )
+skeleton = NodePath("")
+material/0 = null
+
+[node name="Floor6" type="MeshInstance" parent="assets/floor"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10.0169, 0, 0 )
+material_override = SubResource( 5 )
+use_in_baked_light = true
+mesh = ExtResource( 19 )
+skeleton = NodePath(".")
+material/0 = null
+
+[node name="Floor_Dirt7" type="MeshInstance" parent="assets/floor"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.0169, 0, 0 )
+material_override = SubResource( 4 )
+use_in_baked_light = true
+mesh = ExtResource( 18 )
+skeleton = NodePath("../Floor_Dirt2")
+material/0 = null
+
+[node name="Floor_Dirt8" type="MeshInstance" parent="assets/floor"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.01686, 0, 0 )
+material_override = SubResource( 4 )
+use_in_baked_light = true
+mesh = ExtResource( 18 )
+skeleton = NodePath("../Floor_Dirt2")
+material/0 = null
+
+[node name="Floor_Dirt12" type="MeshInstance" parent="assets/floor"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.0337, 0, -8 )
+material_override = SubResource( 4 )
+use_in_baked_light = true
+mesh = ExtResource( 18 )
+skeleton = NodePath("../Floor_Dirt9")
+material/0 = null
+
+[node name="Floor_Dirt20" type="MeshInstance" parent="assets/floor"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10.0674, 0, -4 )
+material_override = SubResource( 4 )
+use_in_baked_light = true
+mesh = ExtResource( 18 )
+skeleton = NodePath(".")
+material/0 = null
+
+[node name="Floor_Dirt13" type="MeshInstance" parent="assets/floor"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10.0337, 0, -8 )
+material_override = SubResource( 4 )
+use_in_baked_light = true
+mesh = ExtResource( 18 )
+skeleton = NodePath(".")
+material/0 = null
+
+[node name="Floor_Dirt9" type="MeshInstance" parent="assets/floor"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.0169, 0, -4 )
+material_override = SubResource( 4 )
+use_in_baked_light = true
+mesh = ExtResource( 18 )
+skeleton = NodePath(".")
+material/0 = null
+
+[node name="Floor_Dirt10" type="MeshInstance" parent="assets/floor"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.01686, 0, 4 )
+material_override = SubResource( 4 )
+use_in_baked_light = true
+mesh = ExtResource( 18 )
+skeleton = NodePath(".")
+material/0 = null
+
+[node name="table_medium" type="MeshInstance" parent="assets"]
+transform = Transform( 0.863994, 0, 0.503503, 0, 1, 0, -0.503503, 0, 0.863994, 0.393445, 0.484941, 2.19484 )
+layers = 4
+material_override = SubResource( 6 )
+mesh = ExtResource( 7 )
+skeleton = NodePath("../..")
+material/0 = null
+
+[node name="towerLower" type="MeshInstance" parent="assets"]
+transform = Transform( 1.59187, 0, -0.161051, 0, 2, 0, 0.161051, 0, 1.59187, 7.07226, 0.523677, -5.19355 )
+material_override = SubResource( 7 )
+mesh = ExtResource( 13 )
+skeleton = NodePath("../floor/Floor_Dirt20")
+material/0 = null
+
+[node name="Primitive_Stairs_Half" type="MeshInstance" parent="assets/towerLower"]
+transform = Transform( -0.625, 0, -6.03983e-08, 0, 0.5, 0, 9.43723e-08, 0, -0.4, -2, 0, -1.2 )
+material_override = SubResource( 8 )
+mesh = ExtResource( 15 )
+skeleton = NodePath("../../..")
+material/0 = null
+
+[node name="pillarYellow" type="MeshInstance" parent="assets"]
+transform = Transform( 1, 0, 0, 0, 1.4, 0, 0, 0, 1, -6.55877, 0.490214, -1.23705 )
+material_override = SubResource( 10 )
+mesh = ExtResource( 9 )
+skeleton = NodePath("../..")
+material/0 = null
+
+[node name="palet2" type="MeshInstance" parent="assets/pillarYellow"]
+transform = Transform( 1, 0, 0, 0, 0.928571, 0, 0, 0, 1, 0, 4, 0 )
+material_override = SubResource( 2 )
+use_in_baked_light = true
+mesh = ExtResource( 17 )
+skeleton = NodePath("")
+material/0 = null
+
+[node name="Workbench_Decorated" type="MeshInstance" parent="assets"]
+transform = Transform( -0.209994, 0, -0.977703, 0, 1, 0, 0.977703, 0, -0.209994, 9.10262, 2.45079, -4.87148 )
+layers = 4
+material_override = SubResource( 11 )
+mesh = ExtResource( 16 )
+skeleton = NodePath("../..")
+material/0 = null
+
+[node name="Locker_Decorated" type="MeshInstance" parent="assets"]
+transform = Transform( -0.997335, 0, -0.0729597, 0, 1, 0, 0.0729597, 0, -0.997335, -3.2633, 0.5, 5.26682 )
+material_override = SubResource( 12 )
+mesh = ExtResource( 5 )
+skeleton = NodePath("../..")
+material/0 = null
+
+[node name="Locker_Decorated2" type="MeshInstance" parent="assets/Locker_Decorated"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.18651, 0, 0.0867982 )
+material_override = SubResource( 12 )
+mesh = ExtResource( 5 )
+skeleton = NodePath("../../..")
+material/0 = null
+
+[node name="target_stand_B" type="MeshInstance" parent="assets"]
+transform = Transform( 0.233598, 0, -0.972333, 0, 1, 0, 0.972333, 0, 0.233598, 4.28171, 0.5, -1.43818 )
+material_override = SubResource( 13 )
+mesh = ExtResource( 10 )
+skeleton = NodePath("../..")
+material/0 = null
+
+[node name="Weaponrack_Decorated" type="MeshInstance" parent="assets"]
+transform = Transform( 0.114608, 0, 0.993411, 0, 1, 0, -0.993411, 0, 0.114608, -5.70196, 0.5, -1.14691 )
+layers = 4
+material_override = SubResource( 14 )
+mesh = ExtResource( 6 )
+skeleton = NodePath("../..")
+material/0 = null
+
+[node name="paletWall" type="MeshInstance" parent="assets"]
+transform = Transform( 5.24535e-08, 1.2, 1.04907e-07, 1.2, -5.24537e-08, 0, 4.58563e-15, 1.04907e-07, -1.2, -10.417, 1.70916, -2.18969 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 17 )
+skeleton = NodePath("")
+material/0 = null
+
+[node name="palet4" type="MeshInstance" parent="assets/paletWall"]
+transform = Transform( -4.37114e-08, -4.37115e-08, 1, 1.31134e-07, 1, 4.37113e-08, -1, 1.31135e-07, -4.37114e-08, 0, 0, -2.04105 )
+material_override = SubResource( 2 )
+mesh = ExtResource( 17 )
+skeleton = NodePath("")
+material/0 = null
+
+[node name="target_wall_small" type="MeshInstance" parent="assets/paletWall/palet4"]
+transform = Transform( -0.833336, -3.64262e-08, 3.64263e-08, 3.64262e-08, -7.28523e-08, 0.833333, -3.64262e-08, 0.833336, 7.28525e-08, -0.0206669, 0.550685, 0 )
+material_override = SubResource( 15 )
+use_in_baked_light = true
+mesh = ExtResource( 8 )
+skeleton = NodePath("../../../..")
+material/0 = null
+
+[node name="palet3" type="MeshInstance" parent="assets/paletWall"]
+transform = Transform( -0.833336, -9.01374e-10, 7.99259e-08, 1.484e-08, 1.06271, 0.161819, -7.85392e-08, 0.210366, -0.817474, -0.182809, 0.158078, -3.96632 )
+material_override = SubResource( 2 )
+use_in_baked_light = true
+mesh = ExtResource( 17 )
+skeleton = NodePath("")
+material/0 = null
+
+[node name="worldWall" type="MeshInstance" parent="assets"]
+transform = Transform( -5.68248e-07, 0, 1, 0, 1, 0, -1, 0, -5.68248e-07, 11.7535, -4, 4 )
+material_override = SubResource( 16 )
+mesh = ExtResource( 20 )
+skeleton = NodePath("")
+material/0 = null
+
+[node name="Wall4" type="MeshInstance" parent="assets/worldWall"]
+transform = Transform( 1, 0, -1.74845e-07, 0, 1, 0, 1.74845e-07, 0, 1, -4, 0, -2.86102e-06 )
+material_override = SubResource( 16 )
+mesh = ExtResource( 20 )
+skeleton = NodePath("")
+material/0 = null
+
+[node name="Wall5" type="MeshInstance" parent="assets/worldWall"]
+transform = Transform( 1, 0, -1.74845e-07, 0, 1, 0, 1.74845e-07, 0, 1, 8, 0, 3.8147e-06 )
+material_override = SubResource( 16 )
+mesh = ExtResource( 20 )
+skeleton = NodePath("")
+material/0 = null
+
+[node name="Wall7" type="MeshInstance" parent="assets/worldWall"]
+transform = Transform( 1, 0, -1.74845e-07, 0, 1, 0, 1.74845e-07, 0, 1, 12, 0, 6.67572e-06 )
+material_override = SubResource( 16 )
+mesh = ExtResource( 20 )
+skeleton = NodePath("")
+material/0 = null
+
+[node name="Wall6" type="MeshInstance" parent="assets/worldWall"]
+transform = Transform( 1, 0, -3.49691e-07, 0, 1, 0, 3.49691e-07, 0, 1, 4, 0, 1.90735e-06 )
+material_override = SubResource( 16 )
+mesh = ExtResource( 20 )
+skeleton = NodePath("")
+material/0 = null
+
+[node name="worldWall3" type="MeshInstance" parent="assets"]
+transform = Transform( 1.19249e-08, 0, -1, 0, 1, 0, 1, 0, 1.19249e-08, -11.7434, -4, -4 )
+material_override = SubResource( 16 )
+mesh = ExtResource( 20 )
+skeleton = NodePath("")
+material/0 = null
+
+[node name="Wall4" type="MeshInstance" parent="assets/worldWall3"]
+transform = Transform( 1, 0, -1.74845e-07, 0, 1, 0, 1.74845e-07, 0, 1, -4, 0, -2.86102e-06 )
+material_override = SubResource( 16 )
+mesh = ExtResource( 20 )
+skeleton = NodePath("")
+material/0 = null
+
+[node name="Wall5" type="MeshInstance" parent="assets/worldWall3"]
+transform = Transform( 1, 0, -1.74845e-07, 0, 1, 0, 1.74845e-07, 0, 1, 8, 0, 3.8147e-06 )
+material_override = SubResource( 16 )
+mesh = ExtResource( 20 )
+skeleton = NodePath("")
+material/0 = null
+
+[node name="Wall7" type="MeshInstance" parent="assets/worldWall3"]
+transform = Transform( 1, 0, -1.74845e-07, 0, 1, 0, 1.74845e-07, 0, 1, 12, 0, 6.67572e-06 )
+material_override = SubResource( 16 )
+mesh = ExtResource( 20 )
+skeleton = NodePath("")
+material/0 = null
+
+[node name="Wall6" type="MeshInstance" parent="assets/worldWall3"]
+transform = Transform( 1, 0, -3.49691e-07, 0, 1, 0, 3.49691e-07, 0, 1, 4, 0, 1.90735e-06 )
+material_override = SubResource( 16 )
+mesh = ExtResource( 20 )
+skeleton = NodePath("")
+material/0 = null
+
+[node name="worldWall2" type="MeshInstance" parent="assets"]
+transform = Transform( 1, 0, 5.24537e-07, 0, 1, 0, -5.24537e-07, 0, 1, -1.96925, -4, 9.88159 )
+material_override = SubResource( 16 )
+mesh = ExtResource( 20 )
+skeleton = NodePath("")
+material/0 = null
+
+[node name="Wall4" type="MeshInstance" parent="assets/worldWall2"]
+transform = Transform( 1, 0, -1.74845e-07, 0, 1, 0, 1.74845e-07, 0, 1, -4, 0, -2.86102e-06 )
+material_override = SubResource( 16 )
+mesh = ExtResource( 20 )
+skeleton = NodePath("")
+material/0 = null
+
+[node name="Wall8" type="MeshInstance" parent="assets/worldWall2"]
+transform = Transform( 1, 0, -1.74845e-07, 0, 1, 0, 1.74845e-07, 0, 1, -8, 0, -6.67572e-06 )
+material_override = SubResource( 16 )
+mesh = ExtResource( 20 )
+skeleton = NodePath("")
+material/0 = null
+
+[node name="Wall5" type="MeshInstance" parent="assets/worldWall2"]
+transform = Transform( 1, 0, -1.74845e-07, 0, 1, 0, 1.74845e-07, 0, 1, 8, 0, 3.8147e-06 )
+material_override = SubResource( 16 )
+mesh = ExtResource( 20 )
+skeleton = NodePath("")
+material/0 = null
+
+[node name="Wall7" type="MeshInstance" parent="assets/worldWall2"]
+transform = Transform( 1, 0, -1.74845e-07, 0, 1, 0, 1.74845e-07, 0, 1, 12, 0, 6.67572e-06 )
+material_override = SubResource( 16 )
+mesh = ExtResource( 20 )
+skeleton = NodePath("")
+material/0 = null
+
+[node name="Wall6" type="MeshInstance" parent="assets/worldWall2"]
+transform = Transform( 1, 0, -3.49691e-07, 0, 1, 0, 3.49691e-07, 0, 1, 4, 0, 1.90735e-06 )
+material_override = SubResource( 16 )
+mesh = ExtResource( 20 )
+skeleton = NodePath("")
+material/0 = null
+
+[node name="worldWall4" type="MeshInstance" parent="assets"]
+transform = Transform( -1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 2.03075, -4, -9.76137 )
+material_override = SubResource( 16 )
+mesh = ExtResource( 20 )
+skeleton = NodePath("")
+material/0 = null
+
+[node name="Wall4" type="MeshInstance" parent="assets/worldWall4"]
+transform = Transform( 1, 0, -1.74845e-07, 0, 1, 0, 1.74845e-07, 0, 1, -4, 0, -2.86102e-06 )
+material_override = SubResource( 16 )
+mesh = ExtResource( 20 )
+skeleton = NodePath("")
+material/0 = null
+
+[node name="Wall8" type="MeshInstance" parent="assets/worldWall4"]
+transform = Transform( 1, 0, -1.74845e-07, 0, 1, 0, 1.74845e-07, 0, 1, -8, 0, -6.67572e-06 )
+material_override = SubResource( 16 )
+mesh = ExtResource( 20 )
+skeleton = NodePath("")
+material/0 = null
+
+[node name="Wall5" type="MeshInstance" parent="assets/worldWall4"]
+transform = Transform( 1, 0, -1.74845e-07, 0, 1, 0, 1.74845e-07, 0, 1, 8, 0, 3.8147e-06 )
+material_override = SubResource( 16 )
+mesh = ExtResource( 20 )
+skeleton = NodePath("")
+material/0 = null
+
+[node name="Wall7" type="MeshInstance" parent="assets/worldWall4"]
+transform = Transform( 1, 0, -1.74845e-07, 0, 1, 0, 1.74845e-07, 0, 1, 12, 0, 6.67572e-06 )
+material_override = SubResource( 16 )
+mesh = ExtResource( 20 )
+skeleton = NodePath("")
+material/0 = null
+
+[node name="Wall6" type="MeshInstance" parent="assets/worldWall4"]
+transform = Transform( 1, 0, -3.49691e-07, 0, 1, 0, 3.49691e-07, 0, 1, 4, 0, 1.90735e-06 )
+material_override = SubResource( 16 )
+mesh = ExtResource( 20 )
+skeleton = NodePath("")
+material/0 = null
+
+[node name="Pallet_Small_Decorated_B" type="MeshInstance" parent="assets"]
+transform = Transform( -0.486513, 0, 1.09695, 0, 1.2, 0, -1.09695, 0, -0.486513, -5.60746, 0.5, -6.20114 )
+material_override = SubResource( 3 )
+mesh = ExtResource( 12 )
+skeleton = NodePath(".")
+material/0 = null
+
+[node name="bigTower3" type="MeshInstance" parent="assets"]
+transform = Transform( 0.543785, 0, 0.253571, 0, 0.97, 0, -0.253571, 0, 0.543785, -3.30431, 0.530848, -7.20018 )
+material_override = SubResource( 1 )
+use_in_baked_light = true
+mesh = ExtResource( 14 )
+skeleton = NodePath("")
+material/0 = null
+
+[node name="cubeArriba" type="MeshInstance" parent="assets/bigTower3"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 4, 0 )
+material_override = SubResource( 1 )
+use_in_baked_light = true
+mesh = ExtResource( 14 )
+skeleton = NodePath("")
+material/0 = null
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource( 18 )
+
+[node name="GroundShape" type="CollisionShape" parent="."]
+transform = Transform( 1.2, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.5, 0 )
+shape = SubResource( 19 )
+
+[node name="TowerLowerCollision" type="CollisionShape" parent="."]
+transform = Transform( 1.59187, 0, -0.161051, 0, 1, 0, 0.161051, 0, 1.59187, 7.07986, 1.52478, -5.18217 )
+shape = SubResource( 20 )
+
+[node name="TowerSmallCollision" type="CollisionShape" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 0, 5.44 )
+shape = SubResource( 21 )
+
+[node name="TowerBigCollision" type="CollisionShape" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.65682, 4.25162, 7.81301 )
+shape = SubResource( 22 )
+
+[node name="palletCollision" type="CollisionShape" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.65123, 3.0969, 6.81309 )
+shape = SubResource( 23 )
+
+[node name="palletCollision2" type="CollisionShape" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.65449, 6.11354, 8.63351 )
+shape = SubResource( 23 )
+
+[node name="palletCollision3" type="CollisionShape" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.56154, 6.43264, -1.22715 )
+shape = SubResource( 23 )
+
+[node name="palletCollision4" type="CollisionShape" parent="."]
+transform = Transform( -4.29363e-08, 0.982268, 0.187484, -1, -4.37114e-08, 0, 8.19519e-09, -0.187484, 0.982268, -9.90218, 1.4854, 2.5082 )
+shape = SubResource( 23 )
+
+[node name="palletLongCollision" type="CollisionShape" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.63808, 8.11849, 4.82389 )
+shape = SubResource( 24 )
+
+[node name="palletLongCollision2" type="CollisionShape" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.77049, 4.14921, 2.37471 )
+shape = SubResource( 24 )
+
+[node name="StairsCollision" type="CollisionShape" parent="."]
+transform = Transform( 0.750744, -0.656232, -0.0757793, 0.658125, 0.752909, 0, 0.0570549, -0.0498722, 0.997125, 3.57721, 0.693606, -7.46813 )
+shape = SubResource( 25 )
+
+[node name="barrelsTower" type="CollisionShape" parent="."]
+transform = Transform( 0.406737, 0, -0.913545, 0, 1, 0, 0.913545, 0, 0.406737, -3.30443, 4.3983, -7.19189 )
+shape = SubResource( 26 )
+
+[node name="barerlsLower" type="CollisionShape" parent="."]
+transform = Transform( 0.406737, 0, -0.913545, 0, 1, 0, 0.913545, 0, 0.406737, -5.62299, 1.37645, -6.18077 )
+shape = SubResource( 27 )
+
+[node name="barerlsLower2" type="CollisionShape" parent="."]
+transform = Transform( 0.987114, 0, -0.160019, 0, 1, 0, 0.160019, 0, 0.987114, 3.00721, 5.3889, 5.92382 )
+shape = SubResource( 27 )
+
+[node name="palletBigCollision" type="CollisionShape" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -10.1071, 1.68704, -0.95546 )
+shape = SubResource( 28 )
+
+[node name="tableCollision" type="CollisionShape" parent="."]
+transform = Transform( 0.862081, 0, 0.506771, 0, 1, 0, -0.506771, 0, 0.862081, 0.391, 0.62, 2.195 )
+shape = SubResource( 29 )
+
+[node name="lockersCollision" type="CollisionShape" parent="."]
+transform = Transform( 0.999373, 0, 0.0354053, 0, 1, 0, -0.0354053, 0, 0.999373, -3.87692, 2.02279, 5.2963 )
+shape = SubResource( 30 )
+
+[node name="decorationCollison1" type="CollisionShape" parent="."]
+transform = Transform( 0.993164, 0, -0.116723, 0, 1, 0, 0.116723, 0, 0.993164, -5.64224, 1.24591, -1.13819 )
+shape = SubResource( 31 )
+
+[node name="decorationCollison2" type="CollisionShape" parent="."]
+transform = Transform( 0.973921, 0, 0.226889, 0, 1, 0, -0.226889, 0, 0.973921, 4.4172, 1.69127, -1.56023 )
+shape = SubResource( 31 )
+
+[node name="yellowPilarCollision" type="CollisionShape" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.56031, 3.27701, -1.23411 )
+shape = SubResource( 32 )
+
+[node name="decorationBIg2" type="CollisionShape" parent="."]
+transform = Transform( 0.978885, 0, -0.204411, 0, 1, 0, 0.204411, 0, 0.978885, 9.65778, 4.28276, -4.7346 )
+shape = SubResource( 33 )
+
+[node name="decorationBigCollision" type="CollisionShape" parent="."]
+transform = Transform( 0.978885, 0, -0.204411, 0, 1, 0, 0.204411, 0, 0.978885, 9.11238, 2.61545, -4.87879 )
+shape = SubResource( 34 )

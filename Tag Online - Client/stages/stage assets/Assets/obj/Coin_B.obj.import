@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Coin_B.obj-8e404c25b461c9f54508cb38d2eb380d.mesh"
+
+[deps]
+
+files=[ "res://.import/Coin_B.obj-8e404c25b461c9f54508cb38d2eb380d.mesh" ]
+
+source_file="res://stages/stage assets/Assets/obj/Coin_B.obj"
+dest_files=[ "res://.import/Coin_B.obj-8e404c25b461c9f54508cb38d2eb380d.mesh", "res://.import/Coin_B.obj-8e404c25b461c9f54508cb38d2eb380d.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286
